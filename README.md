@@ -54,7 +54,7 @@ in order to modify the container.
 
 ## Tutorial
 
-* [Prerequisites](docs/prerequisites.md)
+* [Prerequisites](docs/Prerequisites.md)
 * [Provision The Nomad Infrastructure](docs/nomad/nomad.md)
 * [Provision The Consul Cluster](docs/consul/consul.md)
 * [Install Singularity](docs/singularity/singularity.md)
