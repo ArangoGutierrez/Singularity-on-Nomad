@@ -1,0 +1,29 @@
+{
+    "advertise_addr": "172.17.9.10",
+    "bind_addr": "172.17.9.10",
+    "domain": "HighWind",
+    "bootstrap_expect": 1,
+    "server": true,
+    "datacenter": "HighWind",
+    "data_dir": "/var/consul",
+    "encrypt": "gKfa/ogdgSnwq4lTrmkNIw==",
+    "log_level": "DEBUG",
+    "enable_syslog": true,
+    "enable_debug": true,
+    "dns_config": {
+        "allow_stale": true,
+        "max_stale": "15s"
+    }
+    ,
+    "retry_join": [
+        "172.17.9.21",
+        "172.17.9.22"
+    ],
+    "recursor": "172.17.9.10",
+    "ui_dir": "/home/netlab/consul/www",
+    "rejoin_after_leave": true,
+    "addresses": {
+        "http": "0.0.0.0",
+        "dns": "0.0.0.0"
+    }
+}

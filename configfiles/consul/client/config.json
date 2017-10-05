@@ -1,0 +1,19 @@
+{
+ "bind_addr": "[=>CLIENT IP<=]",
+ "datacenter": "[=>DATACENTER ID<=]",
+ "data_dir": "/opt/consul/data",
+ "encrypt": "[=>CONSUL KEYGEN<=]",
+ "log_level": "DEBUG",
+ "enable_syslog": true,
+ "enable_debug": true,
+ "node_name": "[=>CLIENT NAME:ID<=]",
+ "server": false,
+   "service": {"name": "Apache", "tags": ["HTTP"], "port": 80,
+   "check": {"script": "curl localhost >/dev/null 2>&1", "interval": "10s"}},
+ "rejoin_after_leave": true,
+ "retry_join": [
+    "[=>AGENTS IP<=]",
+    "[=>AGENTS IP<=]",
+    "[=>AGENTS IP<=]"
+    ]
+ }

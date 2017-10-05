@@ -1,0 +1,13 @@
+{
+    "bootstrap": true,
+    "server": true,
+    "datacenter": "highWind",
+    "data_dir": "/var/consul",
+    "encrypt": "gKfa/ogdgSnwq4lTrmkNIw==",
+    "skip_leave_on_interrupt": true,
+    "leave_on_terminate": false,
+    "advertise_addr": "172.17.9.10",
+    "bind_addr": "172.17.9.10",
+    "domain": "HighWind"
+
+}

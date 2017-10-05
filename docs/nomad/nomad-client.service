@@ -1,0 +1,15 @@
+[Unit]
+Description=Nomad client
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/nomad agent -config /etc/nomad/nomad-client.hcl -bind=["CLIENT_IP_ADDR"]
+Environment=GOMAXPROCS=2
+Restart=on-failure
+RestartSec=10
+ExecReload=/bin/kill -HUP $MAINPID
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=multi-user.target
