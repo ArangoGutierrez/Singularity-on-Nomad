@@ -59,7 +59,7 @@ in order to modify the container.
 * [Provision The Consul Cluster](docs/consul/consul.md)
 * [Install Singularity](docs/singularity/singularity.md)
 * [Running Nomad Jobs](https://github.com/kelseyhightower/nomad-on-kubernetes/blob/master/docs/09-nomad-jobs.md)
-* [Running Nomad Jobs with Singularity](docs/singularity/jobs/singularity-jobs.nomad)
+* [Running Nomad Jobs with Singularity](docs/singularity/jobs/singularity-jobs.md)
 
 ### Contribute
 
