@@ -58,9 +58,12 @@ in order to modify the container.
 * [Provision The Nomad Infrastructure](docs/nomad/nomad.md)
 * [Provision The Consul Cluster](docs/consul/consul.md)
 * [Install Singularity](docs/singularity/singularity.md)
-* [Running Nomad Jobs](docs/nomad/jobs.md)
-* [Running Nomad Jobs with Singularity](docs/singularity/nomad-jobs.md)
+* [Running Nomad Jobs](https://github.com/kelseyhightower/nomad-on-kubernetes/blob/master/docs/09-nomad-jobs.md)
+* [Running Nomad Jobs with Singularity](docs/singularity/jobs/singularity-jobs.nomad)
 
 ### Contribute
 
 We believe that sharing is important, and encouraging our peers is even more important. Part of contributing to this tutorial means respecting, encouraging and welcoming others.
+<!--
+EOF!
+-->
