@@ -1,0 +1,4 @@
+  * Enable the raw_exec driver on clients
+  * Run a batch job with raw_exec as driver on the task
+  * Pull singularity images using the artifact Stanza declaration
+  * Update to singularity 2.4 (as soon as it get released)
